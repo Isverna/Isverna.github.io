@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Page on this stairway</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	    a:link{
+	    	text-decoration: none;
+	    }
+	    a:visited{
+	    	text-decoration: none;
+	    }
+	    a:hover{
+	    	text-decoration: none;
+	    }
+	    a:active{
+	    	text-decoration: none;
+	    }
+		body{
+			background-image: url(wood.jpg);
+			background-size: 100%;
+			background-attachment: fixed;
+			margin: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			font-family: "HeitiSC","宋体";
+		}
+		.header{
+			height: 60px;
+			width: 100%;
+			background-color: #232323;
+			margin: 0;
+			display: flex;
+			flex-direction: row-reverse;
+			position: fixed;
+			z-index: 1;
+		}
+		.menua{
+			width: 200px;
+			height: 60px;
+			background-color: #232323;
+		}
+		#title{
+			width: 300px;
+			height: 60px;
+			background-color: #232323;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		#title img{
+			width: 180px;
+			height: 25px;
+		}
+		.menu{
+			height: 60px;
+			width: 600px;
+			background-color: #232323;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.menu p{
+			color: #6F6F6F;
+			margin-left: 45px;
+			margin-right: 45px; 
+		}
+		.menu p:hover{
+			color: white;
+		}
+		.blank{
+			height: 350px;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		.welcome{
+			color: white;
+			margin: 0;
+			font-size: 20px;
+		}
+		.container{
+			height: 600px;
+			width: 100%;
+			background-color: #232323;
+			opacity: 0.9;
+			display: flex;
+			flex-wrap: row;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		#fix{
+			width: 70%;
+			height: 350px;
+			display: flex;
+			flex-direction: row;
+		}
+		#fix div{
+			width: 33.3%;
+			height: 350px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			border-radius: 20px;
+		}
+		#fix div p{
+			color: #F1F1F1;
+			margin-top: 20px;
+			margin-bottom: 0;
+			size: 10px;
+		}
+		#fix div:hover{
+			background-color: black;
+		}
+		#fix img:nth-of-type(n){
+			width: 50px;
+			height: 75px;
+			margin-bottom: 20px;
+		}
+		#box{
+			width: 60%;
+			height: 600px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		#box2{
+			width: 40%;
+			height: 600px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		#box img:only-child{
+			width: 200px;
+			height: 300px;
+		}
+		#box2 p:nth-child(n){
+			margin: 3px;
+			color: white;
+		}
+		#box3{
+			width: 85%;
+			height: 216px;
+			background-color: #232323;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: row;
+		}
+		#box3 img{
+			width: 384px;
+			height: 216px;
+			margin: 5px;
+			opacity: 0.5;
+		}
+		#box3 img:hover{
+			opacity: 1;
+		}
+		#box4{
+			width: 85%;
+			height: 200px;
+			background-color: #232323;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			color: white;
+		}
+		#box4 p{
+			margin-bottom: 15px;
+		}
+		.buttom{
+			height: 80px;
+			width: 100%;
+			background-color: #232323;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		#final{
+			width: 70%;
+			height: 50px;
+			background-color: #232323;
+			color: #575757;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		#final p{
+			font-size: 12px;
+		}
+	</style>
+</head>
+<body>
+    <div id="top"></div>
+    <nav class="header">
+        <nav class="menua"></nav>
+    	<nav class="menu">
+    	    <a href="#top"><p>Top</p></a>
+    		<a href="#2nd"><p>About me</p></a>
+    		<a href="#3rd"><p>Milan</p></a>
+    		<a href="#4th"><p>Black Tea</p></a>
+    	</nav>
+    	<nav class="menua"></nav>
+    	<nav id="title">
+    		<img src="title.png">
+    	</nav>
+    </nav>
+    <div class="blank">
+    	<p class="welcome">A horse! My kingdom for a horse!</p><br>
+    	<p class="welcome">—— Richard III, Shakespeare</p>
+    </div>
+    <div id="2nd"></div>
+    <div class="container">
+    	<div id="fix">
+    		<div>
+    			<img src="text.png">
+    			<p>No.201508223021</p>
+    			<p>Name: Chengyuan.Wu</p>
+    		</div>
+    		<div>
+    			<img src="tea.png">
+    			<p>Having affection for</p>
+    			<p>Painting, Piano & Reading</p>
+    			<p>昭和系な画くが大好き！</p>
+    		</div>
+    		<div>
+    			<img src="location.png">
+    			<p>Animation and Digital Art</p>
+    			<p>Communication University of China</p>
+    		</div>
+    	</div>
+    </div>
+    <div id="3rd"></div>
+    <div class="container">
+    	<div id="box">
+    		<img src="milan.png">
+    	</div>
+    	<div id="box2">
+    		<p>AC milan from Milano, Italy</p>
+    		<p>Fascinating Football & Forza Milan</p>
+    		<br>
+    		<p>Started watching games from 9 years ago.</p>
+    		<p>But with horrible educational pressure.</p>
+    		<br>
+    		<p>Never been a real player even for fun.</p>
+    	</div>
+    </div>
+    <div id="4th"></div>
+    <div class="container">
+    	<div id="box3">
+    		<img src="tea1.jpeg">
+    		<img src="tea2.jpeg">
+    		<img src="tea3.jpeg">
+    	</div>
+    	<div id="box4">
+    		<p>And my ultimate adoration of black tea.</p>
+    		<p>Coffe? That's not for me, not for oriental totally.</p>
+    	</div>
+    </div>
+    <div class="buttom">
+    	<div id="final">
+    		<p>None Copyright © 2017 1st Assignment</p>
+    	</div>
+    </div>
+</body>
+</html>
